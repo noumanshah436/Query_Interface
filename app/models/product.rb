@@ -10,3 +10,11 @@ class Product < ApplicationRecord
   # scope :name, -> { where(:attibute => value)}
 
 end
+
+
+# ****************
+# class Article < ActiveRecord::Base
+#   default_scope where(:published => true)
+# end
+
+# Article.all # => SELECT * FROM articles WHERE published = true
